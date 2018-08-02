@@ -14,13 +14,13 @@
 ### Install
 
 ```
-$ npm install --save dep-graph
+$ npm install --save dep-graph-count
 ```
 
 ### Usage
 
 ```js
-const depGraphCount = require('dep-graph');
+const depGraphCount = require('dep-graph-count');
 
 depGraphCount('facebook', 'react').then(res => {
   console.log(res);

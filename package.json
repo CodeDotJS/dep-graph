@@ -1,5 +1,5 @@
 {
-  "name": "dep-graph",
+  "name": "dep-graph-count",
   "version": "1.0.0",
   "description": "Packages count that a repository depends on",
   "license": "MIT",
