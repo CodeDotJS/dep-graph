@@ -1,0 +1,45 @@
+{
+  "name": "dep-graph",
+  "version": "1.0.0",
+  "description": "Packages count that a repository depends on",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/dep-graph.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishi.ml)",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "opt.js"
+  ],
+  "keywords": [
+    "dependencies",
+    "dependents",
+    "packages",
+    "repository",
+    "depends"
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "got": "6.6.3"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.2.2",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/dep-graph/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/dep-graph#readme",
+  "main": "index.js"
+}
